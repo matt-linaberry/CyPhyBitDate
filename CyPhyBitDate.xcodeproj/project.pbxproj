@@ -14,6 +14,8 @@
 		997766B71AF5674E008F7A98 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 997766B51AF5674E008F7A98 /* LaunchScreen.xib */; };
 		997766C31AF5674E008F7A98 /* CyPhyBitDateTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 997766C21AF5674E008F7A98 /* CyPhyBitDateTests.swift */; };
 		997766CE1AF567AC008F7A98 /* CardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 997766CD1AF567AC008F7A98 /* CardView.swift */; };
+		99C706A21AF99BF800DC37AA /* SwipeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99C706A11AF99BF800DC37AA /* SwipeView.swift */; };
+		99C706A51AF9A23800DC37AA /* CardsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99C706A41AF9A23800DC37AA /* CardsViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -38,6 +40,8 @@
 		997766C11AF5674E008F7A98 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		997766C21AF5674E008F7A98 /* CyPhyBitDateTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CyPhyBitDateTests.swift; sourceTree = "<group>"; };
 		997766CD1AF567AC008F7A98 /* CardView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CardView.swift; sourceTree = "<group>"; };
+		99C706A11AF99BF800DC37AA /* SwipeView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SwipeView.swift; sourceTree = "<group>"; };
+		99C706A41AF9A23800DC37AA /* CardsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CardsViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -79,9 +83,9 @@
 		997766A91AF5674E008F7A98 /* CyPhyBitDate */ = {
 			isa = PBXGroup;
 			children = (
+				99C706A31AF9A21900DC37AA /* ViewControllers */,
 				997766CC1AF56777008F7A98 /* Views */,
 				997766AC1AF5674E008F7A98 /* AppDelegate.swift */,
-				997766AE1AF5674E008F7A98 /* ViewController.swift */,
 				997766B01AF5674E008F7A98 /* Main.storyboard */,
 				997766B31AF5674E008F7A98 /* Images.xcassets */,
 				997766B51AF5674E008F7A98 /* LaunchScreen.xib */,
@@ -119,8 +123,18 @@
 			isa = PBXGroup;
 			children = (
 				997766CD1AF567AC008F7A98 /* CardView.swift */,
+				99C706A11AF99BF800DC37AA /* SwipeView.swift */,
 			);
 			name = Views;
+			sourceTree = "<group>";
+		};
+		99C706A31AF9A21900DC37AA /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				997766AE1AF5674E008F7A98 /* ViewController.swift */,
+				99C706A41AF9A23800DC37AA /* CardsViewController.swift */,
+			);
+			name = ViewControllers;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -224,6 +238,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				997766AF1AF5674E008F7A98 /* ViewController.swift in Sources */,
+				99C706A21AF99BF800DC37AA /* SwipeView.swift in Sources */,
+				99C706A51AF9A23800DC37AA /* CardsViewController.swift in Sources */,
 				997766CE1AF567AC008F7A98 /* CardView.swift in Sources */,
 				997766AD1AF5674E008F7A98 /* AppDelegate.swift in Sources */,
 			);
@@ -423,6 +439,7 @@
 				997766C81AF5674E008F7A98 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		997766C91AF5674E008F7A98 /* Build configuration list for PBXNativeTarget "CyPhyBitDateTests" */ = {
 			isa = XCConfigurationList;
@@ -431,6 +448,7 @@
 				997766CB1AF5674E008F7A98 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
